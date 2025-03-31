@@ -5,8 +5,6 @@ function anagrama() {
 function anagram(wordOne, wordTwo) {
     if (wordOne.toLowerCase() === wordTwo.toLowerCase()) {
 
-        console.log("Palabra que no es anagrama: ", wordOne);
-
         return false;
 
        
