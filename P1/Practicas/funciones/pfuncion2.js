@@ -5,6 +5,7 @@ function leerCaracter() {
     return alert("Has introducido: " + caracter);
 }
 
+//Verificacion de carga
 window.onload = function() {
     console.log("Página cargada correctamente.");
 };

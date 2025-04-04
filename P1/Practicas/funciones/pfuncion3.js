@@ -17,6 +17,13 @@ function moverElemento(event) {
             contenedor.style.left = (posicionActual.left + paso) + "px";
             break;
     }
+
+    function animar() {
+        contenedor.style.top = nuevaPosicion.top + "px";
+        contenedor.style.left = nuevaPosicion.left + "px";
+    }
+
+    requestAnimationFrame(animar);
 }
 
 // Agregamos el evento para escuchar cuando se presionan las teclas
